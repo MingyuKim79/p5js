@@ -40,7 +40,7 @@ header p {
 }
 .iframe-wrap {
     position: relative;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 3 / 2;
     overflow: hidden;
 }
 .iframe-wrap iframe {
