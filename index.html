@@ -46,5 +46,16 @@
     </div>
 
 </main>
+    <script>
+  function fitIframes() {
+    document.querySelectorAll('.iframe-wrap').forEach(wrap => {
+      const scale = wrap.offsetWidth / 600;
+      const iframe = wrap.querySelector('iframe');
+      iframe.style.transform = `scale(${scale})`;
+    });
+  }
+  fitIframes();
+  window.addEventListener('resize', fitIframes);
+</script>
 </body>
 </html>
