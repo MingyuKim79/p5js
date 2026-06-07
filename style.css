@@ -37,8 +37,8 @@ header p{
     border-radius:12px;
     overflow:hidden;
     box-shadow:0 4px 10px rgba(0,0,0,0.15);
-    aspect-ratio: 16 / 9;
-    position: relative;
+    position: relative;      
+    aspect-ratio: 16 / 9; 
 }
 
 .cell h3{
@@ -46,6 +46,8 @@ header p{
     background:#2563eb;
     color:white;
     text-align:center;
+    position: relative;        
+    z-index: 1; 
 }
 
 .cell iframe{
